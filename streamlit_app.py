@@ -6,7 +6,7 @@ from google.oauth2 import service_account
 from googleapiclient.discovery import build
 from googleapiclient.http import HttpRequest
 
-SCOPE = "https://www.googleapis.com/auth/spreadsheets"
+SCOPE = "https://sheets.googleapis.com"
 SPREADSHEET_ID = "15WKz6lqvTEkhQBSxHKqm31SjeZTGws1h8igSWFEB7aM"
 SHEET_NAME = "Database"
 GSHEET_URL = f"https://docs.google.com/spreadsheets/d/{SPREADSHEET_ID}"
